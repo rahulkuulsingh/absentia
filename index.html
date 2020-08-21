@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absentia</title>
+    <link rel="stylesheet" href="resources/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resources/icon-font-style.css">
+    <script src="myscript.js"></script>
+</head>
+<body>
+    <!-- Header Navigation -->
+    <nav id="nav-header" class="">
+        <!-- file name -->
+        <div class="l-sec">
+            <input id="project-name" type="text" value="The Square Zone Campaign" class="project-name" tabindex="0">
+            <span class="border-seprator"></span>
+            <div class="header-tool-bar">
+                <!-- version and histroy related tools -->
+                <div class="tool-version-control">
+                    <div class="abs icon-button">
+                        <i class="abs-undo"></i>
+                        <label class="icon-button-label" for="undo">Undo</label>
+                    </div> 
+                    <div class="abs icon-button">
+                        <i class="abs-redo"></i>
+                        <label class="icon-button-label" for="undo">Redo</label>
+                    </div> 
+                    <span class="border-seprator"></span>
+                    <div class="abs icon-button">
+                        <i class="abs-cursor"></i>
+                        <label class="icon-button-label" for="cursor">Move</label>
+                    </div>
+                    <!--  -->
+                    <div class="abs icon-button">
+                        <i class="abs-point"></i>
+                        <label class="icon-button-label" for="pointr">Hand</label>
+                    </div> 
+                    <span class="border-seprator"></span>
+                    <div class="abs icon-button">
+                        <i class="abs-prioritize-up"></i>
+                        <label class="icon-button-label" for="pointr">Front</label>
+                    </div> 
+                    <div class="abs icon-button">
+                        <i class="abs-prioritize-down"></i>
+                        <label class="icon-button-label" for="pointr">Back</label>
+                    </div> 
+                    <div class="abs icon-button">
+                        <i class="abs-flip-left-alt"></i>
+                        <label class="icon-button-label" for="pointr">Left</label>
+                    </div> 
+                    <div class="abs icon-button">
+                        <i class="abs-flip-right-alt"></i>
+                        <label class="icon-button-label" for="pointr">Right</label>
+                    </div>
+                    <div class="abs input-number">
+                        <span class="rotate">
+                            <input type="number" min="0" max="360" step="1" value="0"  class="integer-input">
+                        </span>
+                        
+                    </div>
+
+                    <span class="border-seprator"></span>
+                    <div class="abs icon-button">
+                        <i class="abs-trash"></i>
+                        <label class="icon-button-label" for="pointr">Remove</label>
+                    </div> 
+                </div>
+                <!-- export buttons  -->
+            </div>
+        </div>
+        <div class="r-sec">
+        <a href="#" class="btn btn-outline btn-preview">Preview</a>
+        <a href="#" class="btn btn-solid btn-export">Export</a>
+    </div>
+    </nav>
+    <!-- left tools panel -->
+    <section id="left-navigation-side-panel" class="">
+        <div class="l-side-panel">
+        <div class="top-section">
+            <img src="resources/images/logo.png" alt="" class="brand-logo">
+            <div class="abs icon-button">
+                <i class="abs-layer-stack"></i>
+                <label class="icon-button-label" for="undo">Layers</label>
+            </div> 
+            <div class="abs icon-button">
+                <i class="abs-artboard"></i>
+                <label class="icon-button-label" for="undo">Canvas</label>
+            </div> 
+            <div class="abs icon-button">
+                <i class="abs-folder-open"></i>
+                <label class="icon-button-label" for="undo">Library</label>
+            </div> 
+        </div>
+
+        <!-- User account and notifications -->
+        <div class="bottom-section">
+            <div class="abs icon-button">
+                <i class="abs-user-circle"></i>
+                <label class="icon-button-label" for="user-circle">User</label>
+            </div> 
+        </div>
+    </div>
+    </section>
+
+    <!-- Layers Panel -->
+    <section id="layers-panel" class="">
+        <div class="filter-layers-grp">
+            <i class="abs abs-search"></i>
+            <input id="filter-layer" type="text" value="All Layers" class="filter-layer" tabindex="0">
+            <i class="abs abs-filter"></i>
+        </div>
+        <!-- Layers -->
+        <div class="layers-grp">
+            <div class="layer-item-grp">
+                <i class="layer-type abs abs-font"></i>
+                <input id="layer-name" type="text" value="Untitled text" class="layer-name" tabindex="0">
+                <div class="layer-action-grp">
+                    <i class="abs abs-lock hidden"></i>
+                    <i class="abs abs-eye-slash hidden "></i>
+                </div>
+            </div>
+            <div class="layer-item-grp">
+                <i class="layer-type abs abs-image"></i>
+                <input id="layer-name" type="text" value="Untitled image" class="layer-name" tabindex="0">
+                <div class="layer-action-grp">
+                    <i class="abs abs-lock hidden"></i>
+                    <i class="abs abs-eye-slash hidden "></i>
+                </div>
+            </div>
+            <div class="layer-item-grp">
+                <i class="layer-type abs abs-shape-polygon"></i>
+                <input id="layer-name" type="text" value="Untitled shape" class="layer-name" tabindex="0">
+                <div class="layer-action-grp">
+                    <i class="abs abs-lock hidden"></i>
+                    <i class="abs abs-eye-slash hidden "></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adjustments Panel -->
+    <section id="adjustment-panel">
+    <!-- Alignment -->
+    <div class="align tools">
+        <h3 class="tool-section-name">Align</h3>
+        <div class="alignment-tools-items">
+            <i class="abs-align-left"></i>
+            <i class="abs-align-v"></i>
+            <i class="abs-align-right"></i>
+            <i class="abs-align-top"></i>
+            <i class="abs-align-h"></i>
+            <i class="abs-align-bottom"></i>
+            <span class="border-seprator tools-grp-seprator"></span>
+            <i class="abs-distribute-h"></i>
+            <i class="abs-distribute-v"></i>
+        </div> 
+    </div>  
+    <div class="typography tools">
+        <h3 class="tool-section-name">Typography</h3>
+        <div class="typography-tools-items">
+            <select id="select-font" class="input-selection">
+                <option class="input-options" value="Roboto">Roboto</option>
+            </select>
+            <div class="tools-grp">
+            <select id="select-font-weight" class="input-selection">
+                <option class="input-options" value="Roboto">Regular</option>
+                <option class="input-options" value="Roboto">Thin</option>
+                <option class="input-options" value="Roboto">Italic</option>
+                <option class="input-options" value="Roboto">Medium</option>
+                <option class="input-options" value="Roboto">Bold</option>
+            </select>
+            <select id="select-font-size" class="input-selection">
+                <option class="input-options" value="Roboto">12</option>
+                <option class="input-options" value="Roboto">13</option>
+                <option class="input-options" value="Roboto">14</option>
+                <option class="input-options" value="Roboto">15</option>
+                <option class="input-options" value="Roboto">16</option>
+            </select>
+            <input type="color" id="font-color" name="font-color" value="#efba09">
+        </div>
+        <div class="text-adjustment-tools">
+            <i class="abs-text-align-left"></i>
+            <i class="abs-text-align-center"></i>
+            <i class="abs-text-align-right"></i>
+            <i class="abs-text-align-justify"></i>
+            <i class="abs-text"></i>
+        </div>
+        </div> 
+    </div>
+    </section>
+
+    <canvas id="myCanvas">Your browser does not support the HTML canvas tag.</canvas>
+
+</body>
+</html>
