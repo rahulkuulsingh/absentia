@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'absentia-icon-font';
+  src:  url('fonts/absentia-icon-font.eot?kx7zkg');
+  src:  url('fonts/absentia-icon-font.eot?kx7zkg#iefix') format('embedded-opentype'),
+    url('fonts/absentia-icon-font.ttf?kx7zkg') format('truetype'),
+    url('fonts/absentia-icon-font.woff?kx7zkg') format('woff'),
+    url('fonts/absentia-icon-font.svg?kx7zkg#absentia-icon-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'absentia-icon-font' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.abs-shape-polygon:before {
+  content: "\e92a";
+}
+.abs-image:before {
+  content: "\e92b";
+}
+.abs-lock:before {
+  content: "\e922";
+}
+.abs-eye-dropper:before {
+  content: "\e923";
+}
+.abs-eye-slash:before {
+  content: "\e924";
+}
+.abs-eye:before {
+  content: "\e925";
+}
+.abs-chevron-down:before {
+  content: "\e926";
+}
+.abs-trash:before {
+  content: "\e927";
+}
+.abs-filter:before {
+  content: "\e928";
+}
+.abs-search:before {
+  content: "\e929";
+}
+.abs-artboard:before {
+  content: "\e900";
+}
+.abs-text:before {
+  content: "\e901";
+}
+.abs-italic:before {
+  content: "\e902";
+}
+.abs-bold:before {
+  content: "\e903";
+}
+.abs-underline:before {
+  content: "\e904";
+}
+.abs-text-align-right:before {
+  content: "\e905";
+}
+.abs-text-align-left:before {
+  content: "\e906";
+}
+.abs-text-align-justify:before {
+  content: "\e907";
+}
+.abs-text-align-center:before {
+  content: "\e908";
+}
+.abs-font:before {
+  content: "\e909";
+}
+.abs-font-width:before {
+  content: "\e90a";
+}
+.abs-font-size:before {
+  content: "\e90b";
+}
+.abs-font-height:before {
+  content: "\e90c";
+}
+.abs-cursor:before {
+  content: "\e90d";
+}
+.abs-rotate-right:before {
+  content: "\e90e";
+}
+.abs-bell:before {
+  content: "\e90f";
+}
+.abs-user-circle:before {
+  content: "\e910";
+}
+.abs-point:before {
+  content: "\e911";
+}
+.abs-flip-right-alt:before {
+  content: "\e912";
+}
+.abs-flip-left-alt:before {
+  content: "\e913";
+}
+.abs-layer-stack:before {
+  content: "\e914";
+}
+.abs-folder-open:before {
+  content: "\e915";
+}
+.abs-prioritize-up:before {
+  content: "\e916";
+}
+.abs-prioritize-down:before {
+  content: "\e917";
+}
+.abs-undo:before {
+  content: "\e918";
+}
+.abs-redo:before {
+  content: "\e919";
+}
+.abs-distribute-v:before {
+  content: "\e91a";
+}
+.abs-distribute-h:before {
+  content: "\e91b";
+}
+.abs-align-v:before {
+  content: "\e91c";
+}
+.abs-align-top:before {
+  content: "\e91d";
+}
+.abs-align-right:before {
+  content: "\e91e";
+}
+.abs-align-left:before {
+  content: "\e91f";
+}
+.abs-align-h:before {
+  content: "\e920";
+}
+.abs-align-bottom:before {
+  content: "\e921";
+}
